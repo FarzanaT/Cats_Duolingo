@@ -3,9 +3,9 @@
 
 # AND101 Project 3 - AnimalApps
 
-Submitted by: **Your Name Here**
+Submitted by: **Farzana Tasnim**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Summary
 
@@ -38,7 +38,7 @@ The following EXTRA features are implemented:
 - [ ] List anything else that you added to improve the app!
 
 ## Chosen Screenshot
-
+https://designvault.io/shot/903-1004200509/ 
 I have chosen to duplicate the following layout from the **Duolingo Goal Page** app:
 
 <img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
