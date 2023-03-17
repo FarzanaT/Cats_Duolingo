@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        android:text="You reached your daily goal Kitty!"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/lesson"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Lesson complete!"
+        android:textCursorDrawable="@null"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/parent" />
+    <TextView
+        android:id="@+id/xp"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:textSize="17sp"
+        android:textColor="@color/dark_yellow"
+        android:textAlignment="center"
+        android:text="+10XP"
+        android:textCursorDrawable="@null"
+        android:textStyle="bold"
+
+        app:layout_constraintHorizontal_bias="1.36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/parent" />
+
+
+    <TextView
+        android:id="@+id/bonus"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="-70dp"
+        android:layout_marginTop="-20dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:text="Combo bonus! "
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@null"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lesson"
+        app:layout_constraintStart_toStartOf="@id/lesson"
+        app:layout_constraintTop_toBottomOf="@id/lesson" />
+    <TextView
+        android:id="@+id/xp1"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="-70dp"
+        android:layout_marginTop="-20dp"
+        android:ems="10"
+
+        android:textStyle="bold"
+        android:text="+2XP"
+        android:textSize="17sp"
+        android:textColor="@color/dark_yellow"
+        android:textCursorDrawable="@null"
+        app:layout_constraintHorizontal_bias="2.08"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lesson"
+        app:layout_constraintStart_toStartOf="@id/lesson"
+        app:layout_constraintTop_toBottomOf="@id/lesson" />
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="-50dp"
+
+        android:layout_marginTop="96dp"
+
+        android:text="CONTINUE"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/bonus"
+        app:layout_constraintStart_toStartOf="@id/bonus"
+        app:layout_constraintTop_toBottomOf="@id/bonus" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="173dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="377dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="80dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="@id/imageView"
+
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:srcCompat="@drawable/barr" />
+
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
